@@ -1,0 +1,15 @@
+.bg-light {
+  background-color: #f4f3ee !important;
+}
+
+.navbar {
+  padding: 0.5rem 3rem;
+
+  &-brand {
+    font-size: 1.8rem;
+  }
+}
+
+.nav-link {
+  text-transform: uppercase;
+}

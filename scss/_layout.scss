@@ -1,0 +1,24 @@
+.main {
+  text-align: center;
+}
+
+.row {
+  justify-content: center;
+  &__box {
+    height: 200px;
+    border-radius: 15px;
+    background-color: $color-beige;
+    margin: 2rem;
+    flex: 0 0 200px;
+
+    &--white {
+      background-color: $white;
+      border: 3px solid $color-accent;
+    }
+
+    &--purple {
+      background-color: $color-accent;
+      border: 3px solid $white;
+    }
+  }
+}
